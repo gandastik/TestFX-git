@@ -28,7 +28,7 @@ public class Controller {
         circle.setCenterY(y+=20);
     }
     public void left(ActionEvent e) {
-        circle.setCenterX(x-=20);
+        circle.setCenterX(x-=10);
     }
     public void right(ActionEvent e) {
         circle.setCenterX(x+=20);
