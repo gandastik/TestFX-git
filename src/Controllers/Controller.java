@@ -48,6 +48,10 @@ public class Controller {
         stage.setScene(scene);
         stage.show();
     }
+    public void polTesting1()
+    {
+        System.out.println("POL");
+    }
 
     public void Test(){
         System.out.println("POL krot noob");
