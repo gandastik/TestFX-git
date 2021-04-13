@@ -20,19 +20,18 @@ public class Controller {
     Circle circle;
     private double x;
     private double y;
-    ButtonController btnController = new ButtonController(circle);
 
    public void up(ActionEvent e) {
-        circle.setCenterY(y-=10);
+        circle.setCenterY(y-=15);
    }
     public void down(ActionEvent e) {
-        circle.setCenterY(y+=10);
+        circle.setCenterY(y+=15);
     }
     public void left(ActionEvent e) {
-        circle.setCenterX(x-=10);
+        circle.setCenterX(x-=15);
     }
     public void right(ActionEvent e) {
-        circle.setCenterX(x+=10);
+        circle.setCenterX(x+=15);
     }
 
     public void goToScene2(ActionEvent e) throws Exception {
