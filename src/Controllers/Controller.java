@@ -22,16 +22,16 @@ public class Controller {
     private double y;
 
    public void up(ActionEvent e) {
-        circle.setCenterY(y-=20);
+        circle.setCenterY(y-=15);
    }
     public void down(ActionEvent e) {
-        circle.setCenterY(y+=20);
+        circle.setCenterY(y+=15);
     }
     public void left(ActionEvent e) {
-        circle.setCenterX(x-=20);
+        circle.setCenterX(x-=15);
     }
     public void right(ActionEvent e) {
-        circle.setCenterX(x+=20);
+        circle.setCenterX(x+=15);
     }
 
     public void goToScene2(ActionEvent e) throws Exception {
