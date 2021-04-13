@@ -51,6 +51,7 @@ public class Controller {
     public void polTesting1()
     {
         System.out.println("POL");
+        System.out.println("POL2");
     }
 
     public void Test(){
