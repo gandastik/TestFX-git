@@ -5,6 +5,6 @@ public class ButtongController {
         System.out.println("alskdjf;lasjd;lfjasl;djf;lsjkadf");
     }
     public void feature() {
-        System.out.println("5678");
+        System.out.println("1234");
     }
 }
