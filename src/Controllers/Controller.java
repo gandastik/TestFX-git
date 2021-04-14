@@ -22,7 +22,7 @@ public class Controller {
     private double y;
 
    public void up(ActionEvent e) {
-        circle.setCenterY(y-=50);
+       circle.setCenterY(y-=50);
    }
     public void down(ActionEvent e) {
         circle.setCenterY(y+=50);
